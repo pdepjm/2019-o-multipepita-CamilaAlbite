@@ -18,7 +18,7 @@ object pepita {
 	method cuantoQuiereVolar(){
 		var distancia = energia/5 
 		if (energia.between(300, 400)){
-			distancia = distancia + 10
+			distancia = distancia + 10000
 		}
 		if(energia % 20 == 0){
 			distancia= distancia + 15
